@@ -24,3 +24,10 @@
 - justify-content
 - align-items
 
+### Grid Item Properties
+- grid-column
+- grid-row
+- grid-area
+- align-self
+- justify-self
+
