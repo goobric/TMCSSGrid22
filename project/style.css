@@ -30,3 +30,24 @@ body {
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     margin-bottom: 10px;
 }
+
+/* == FLEXBOX CODE to ALIGN for the image and header with text == */
+.card__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card__header h3 {
+    font-size: 15px;
+}
+.card__header p {
+    opacity: 50%;
+}
+.card_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #996ed9;
+    margin-right: 10px;
+}
+
