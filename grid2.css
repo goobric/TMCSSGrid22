@@ -5,10 +5,17 @@
     margin: 0;
 }
 
+/* == BODY with be the Grid == */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'nav content sidebar'
+    'nav footer footer';
 }
 
 /* == ELEMENTS INTO BLUE BOXES == */
@@ -18,3 +25,5 @@ header, footer, main, aside, nav {
     padding: 20px;
     border: skyblue 1px solid;
 }
+
+/* == SETTING GRID AREA == */
