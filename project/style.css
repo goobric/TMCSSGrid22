@@ -16,12 +16,16 @@ body {
     font-size: 13px;
 }
 
-/* == TESTIMONIALS CONTAINER == */
+/* == TESTIMONIALS CONTAINER with GRID properties== */
 .testimonials {
     max-width: 1440px;
     margin: 100px auto;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
+
 /* == CARD SETUP == */
 .card {
     background: #fff;
@@ -78,7 +82,11 @@ body {
     color: #fff;
 }
 
+/* == GRID CODE == */
+.card:nth-of-type(1) {
+    grid-column: 1 / 3;
+}
+
 .footer {
     text-align: center;
 }
-
