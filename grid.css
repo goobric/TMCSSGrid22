@@ -11,8 +11,21 @@ body {
     color: #333;
     background: #f5f5f5;
 }
+
+/* === Container Code === */
 .container {
     max-width: 960px;
     margin: 100px auto;
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* === Item Code === */
+.item {
+    background: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
 }
