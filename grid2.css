@@ -10,3 +10,11 @@ body {
     font-size: 16px;
     height: 100vh;
 }
+
+/* == ELEMENTS INTO BLUE BOXES == */
+header, footer, main, aside, nav {
+    background-color: steelblue;
+    color: #fff;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
