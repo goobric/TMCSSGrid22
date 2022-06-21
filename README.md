@@ -12,7 +12,7 @@
 ### Align inner elements with Flexbox
 
 ## Grid Containers & Grid Items
-the Grid Container is the element that holds Grid Items. Grid Items are **direct children** of Grid Containers. A Container is created with __display: grid__
+the Grid Container is the element that holds Grid Items. Grid Items are **direct children** of Grid Containers. A Container is created with _display: grid_
 
 ### Grid Container Properties
 - grid-template columns
@@ -31,5 +31,5 @@ the Grid Container is the element that holds Grid Items. Grid Items are **direct
 - align-self
 - justify-self
 
-**Flexbox** is one-dimensional and can be either row __OR__ column
-**CSS Grid** allows two-dimensional layouts with ros __AND__ columns
+**Flexbox** is one-dimensional and can be either row _OR_ column
+**CSS Grid** allows two-dimensional layouts with ros _AND_ columns, and SPAN layouts
