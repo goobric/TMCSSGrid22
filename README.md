@@ -1,4 +1,5 @@
 # Brad Traversy CSS Grid Course 2022
+[CSS Grid Course](https://www.youtube.com/watch?v=0xMQfnTU6ooo)
 
 ## What is CSS Grid?
 
