@@ -34,4 +34,4 @@ the Grid Container is the element that holds Grid Items. Grid Items are **direct
 
 **Flexbox** is one-dimensional and can be either row _OR_ column
 
-**CSS Grid** allows two-dimensional layouts with ros _AND_ columns, and SPAN layouts
+**CSS Grid** allows two-dimensional layouts with rows _AND_ columns, and SPAN layouts
