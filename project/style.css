@@ -101,3 +101,25 @@ body {
 .footer {
     text-align: center;
 }
+
+/* === RESPONSIVE CODE === */
+@media(max-width: 768px) {
+    .testimonials {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    /* = Daniel = */
+    .card:nth-of-type(1) {
+    grid-column: 1 / 2;
+    }
+    /* = Patrick = */
+    .card:nth-of-type(4) {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    }
+    /* = Kira = */
+    .card:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    }
+}
